@@ -1,0 +1,16 @@
+def tables(num):
+    for i in range(11):
+        print(f"{num} X {i}={num * i}  ")
+def repeat(num):
+    for i in range(num):
+        print("reapeat the process given time")
+
+print("1.tables \n 2.repeat")
+option=int(input("option >> "))
+num=int(input("enter the number"))
+if option==1:
+    tables(num)
+elif option==2:
+    repeat(num)
+else:
+    print("ivalid option !!!!!!!!! try again")
